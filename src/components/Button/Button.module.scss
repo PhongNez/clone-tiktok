@@ -1,0 +1,13 @@
+.primary {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
+    background-color: rgb(254, 44, 85);
+    border-radius: 4px;
+    padding: 6px 8px;
+    min-width: 100px;
+    cursor: pointer;
+    &:hover {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), rgb(254, 44, 85);
+    }
+}

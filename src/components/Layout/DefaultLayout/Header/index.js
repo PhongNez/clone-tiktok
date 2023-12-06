@@ -7,6 +7,7 @@ import Tippy from '@tippyjs/react';
 import ListSearch from '../../../ListSearch';
 import AccountItem from '../../../AccountItem';
 import { useEffect, useState } from 'react';
+import Button from '../../../Button';
 const cx = classNames.bind(styles);
 
 function Header() {
@@ -17,7 +18,7 @@ function Header() {
         setTimeout(() => {
             setListSearch([1, 2, 3, 4]);
         }, 5000);
-    });
+    }, []);
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
@@ -51,7 +52,9 @@ function Header() {
                         </button>
                     </div>
                 </Tippy>
-                <div className={cx('action')}>Tải lên</div>
+                <div className={cx('action')}>
+                    <Button primary>Đăng nhập</Button>
+                </div>
             </div>
         </header>
     );
