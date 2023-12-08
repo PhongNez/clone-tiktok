@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 import image from '../../../../assets/images';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleXmark, faMagnifyingGlass, faSpinner } from '@fortawesome/free-solid-svg-icons';
+import { faCircleXmark, faMagnifyingGlass, faPlus, faSpinner } from '@fortawesome/free-solid-svg-icons';
 import Tippy from '@tippyjs/react';
 import ListSearch from '../../../ListSearch';
 import AccountItem from '../../../AccountItem';
@@ -53,7 +53,8 @@ function Header() {
                     </div>
                 </Tippy>
                 <div className={cx('action')}>
-                    <Button primary>Đăng nhập</Button>
+                    <Button upload>Tải lên</Button>
+                    <Button rounded>Tải ứng dụng</Button>
                 </div>
             </div>
         </header>
