@@ -1,0 +1,18 @@
+.menu-items {
+    min-width: 223px;
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+    border-radius: 8px;
+    padding: 8px 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 9px 16px;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}

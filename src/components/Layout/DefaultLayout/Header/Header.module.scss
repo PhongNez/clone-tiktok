@@ -94,3 +94,13 @@
     margin-right: 8px;
     font-size: 1.4rem;
 }
+
+.action {
+    display: flex;
+    align-items: center;
+}
+.more-button {
+    font-size: 2rem;
+    margin-left: 16px;
+    cursor: pointer;
+}
